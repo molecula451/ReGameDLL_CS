@@ -522,7 +522,7 @@ int TrainSpeed(int iSpeed, int iMax)
 	float fSpeed;
 	int iRet = 0;
 
-	fMax = float(iMax);
+	fMax = static_cast<float>(iMax);
 	fSpeed = iSpeed / fMax;
 
 	if (iSpeed < 0)
