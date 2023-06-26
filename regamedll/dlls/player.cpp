@@ -522,7 +522,7 @@ int TrainSpeed(int iSpeed, int iMax)
 	float fSpeed;
 	int iRet = 0;
 
-	fMax = dynamic_cast<float*>(iMax);
+	fMax = dynamic_cast<fMax>(iMax);
 	fSpeed = iSpeed / fMax;
 
 	if (iSpeed < 0)
